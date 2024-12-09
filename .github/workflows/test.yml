@@ -13,4 +13,4 @@ jobs:
         run: env
 
       - name: Testar variável
-        run: echo $RODRIGO
+        run: echo "$RODRIGO"

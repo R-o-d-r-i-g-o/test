@@ -17,3 +17,6 @@ jobs:
 
       - name: Testar variável
         run: echo "${{ toJson(github) }}"
+
+      - name: Testar variável
+        run: echo "${{ toJson(vars) }}"

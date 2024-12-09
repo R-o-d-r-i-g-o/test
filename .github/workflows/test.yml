@@ -16,4 +16,4 @@ jobs:
         run: echo "$RODRIGO"
 
       - name: Testar variável
-        run: echo "${{ github }}"
+        run: github

@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  push: 
+    branches:
+      - '*' 
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Listar variáveis de ambiente
+        run: env
+
+      - name: Testar variável
+        run: echo $RODRIGO
